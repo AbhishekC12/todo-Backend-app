@@ -1,0 +1,22 @@
+{
+  "homepage": "https://AbhishekC12.github.io/todo-Backend-app",
+  "name": "todo-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "gh-pages": "^6.1.1",
+    "mongodb": "^6.8.0"
+  },
+  "type": "module"
+}
